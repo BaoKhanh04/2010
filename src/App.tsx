@@ -95,9 +95,8 @@ function GreetingCard({
           </p>
         </div>
         <p className="card-closing">
-          Vì bạn xứng đáng với những điều dịu dàng nhất trên thế giới này. <span>♡</span>
+          Vì bạn xứng đáng với những điều tuyệt vời nhất <span>♡</span>
         </p>
-        <p className="card-signature">With love, dành riêng cho bạn.</p>
         {wish && <p className="wish-message" key={wish}>{wish}</p>}
         <div className="card-actions">
           <button className="button button--wish" onClick={onWish} type="button" disabled={scene !== 'card'}>
